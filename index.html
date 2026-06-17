@@ -31,14 +31,14 @@
         </button>
 
         <nav class="site-nav" aria-label="Główna nawigacja" data-nav>
-          <a href="#realizacje">Realizacje</a>
-          <a href="#o-nas">O nas</a>
-          <a href="#kontakt">Kontakt</a>
+          <a href="./realizacje.html">Realizacje</a>
+          <a href="./o-nas.html">O nas</a>
+          <a href="./kontakt.html">Kontakt</a>
         </nav>
 
         <div class="header-cta">
           <a href="tel:+48000000000">+48 000 000 000</a>
-          <a class="small-button" href="#kontakt">Kontakt</a>
+          <a class="small-button" href="./kontakt.html">Kontakt</a>
         </div>
       </div>
     </header>
@@ -52,7 +52,7 @@
           <h1 id="hero-title">Twój pomysł, nasze rzemiosło. Meble, które definiują wnętrze.</h1>
           <div class="hero-actions">
             <a class="button button-light" href="#kontakt">Rozpocznij Projekt</a>
-            <a class="button button-dark" href="#realizacje">Nasze Realizacje</a>
+            <a class="button button-dark" href="./realizacje.html">Nasze Realizacje</a>
           </div>
         </div>
       </section>
@@ -65,7 +65,7 @@
               <h2 id="work-title">Nasze Realizacje</h2>
             </div>
             <span class="heading-line" aria-hidden="true"></span>
-            <a class="view-all" href="#kontakt">Zobacz wszystkie</a>
+            <a class="view-all" href="./realizacje.html">Zobacz wszystkie</a>
           </div>
 
           <div class="project-grid stagger">
@@ -73,29 +73,38 @@
               <a class="project-image" href="#kontakt" aria-label="Domowe biuro">
                 <img src="./03-assets/images/realizacja-salon-zabudowa-tv-02.png" alt="Domowe biuro z biurkiem dębowym i szafą z szufladami" />
               </a>
-              <div class="project-info">
-                <h3>Domowe Biuro</h3>
-                <p>Biurko dębowe z szafą oraz szufladami.</p>
+              <div class="project-info project-info-row">
+                <div>
+                  <h3>Domowe Biuro</h3>
+                  <p>Biurko dębowe z szafą oraz szufladami.</p>
+                </div>
+                <a href="#kontakt">Zobacz projekt <span aria-hidden="true">→</span></a>
               </div>
             </article>
 
             <article class="project-card project-card-tall">
-              <a class="project-image" href="#kontakt" aria-label="BareK">
-                <img src="./03-assets/images/realizacja-schody-drewno-metal.png" alt="BareK z frezowanymi frontami i olejowanym dębem" />
+              <a class="project-image" href="#kontakt" aria-label="Bar">
+                <img src="./03-assets/images/realizacja-schody-drewno-metal.png" alt="Bar z frezowanymi frontami i olejowanym dębem" />
               </a>
-              <div class="project-info">
-                <h3>BareK</h3>
-                <p>Frezowane fronty, dąb olejowany</p>
+              <div class="project-info project-info-row">
+                <div>
+                  <h3>Bar</h3>
+                  <p>Frezowane fronty</p>
+                </div>
+                <a href="#kontakt">Zobacz projekt <span aria-hidden="true">→</span></a>
               </div>
             </article>
 
             <article class="project-card project-card-full">
-              <a class="project-image" href="#kontakt" aria-label="Kuchnia w stylu Skandynawskim">
+              <a class="project-image" href="./realizacja-kuchnia-skandynawska.html" aria-label="Kuchnia w stylu Skandynawskim">
                 <img src="./03-assets/images/realizacja-kuchnia-kompaktowa-02.png" alt="Kuchnia w stylu skandynawskim z zielonymi frontami" />
               </a>
               <div class="project-info project-info-row">
-                <h3>Kuchnia w stylu Skandynawskim</h3>
-                <a href="#kontakt">Zobacz projekt <span aria-hidden="true">→</span></a>
+                <div>
+                  <h3>Kuchnia</h3>
+                  <p>w stylu Skandynawskim</p>
+                </div>
+                <a href="./realizacja-kuchnia-skandynawska.html">Zobacz projekt <span aria-hidden="true">→</span></a>
               </div>
             </article>
           </div>
@@ -173,7 +182,7 @@
       <section class="contact section" id="kontakt" aria-labelledby="contact-title">
         <div class="wrap contact-grid">
           <div class="contact-copy reveal">
-            <h2 id="contact-title">Porozmawiajmy o projekcie</h2>
+            <h2 id="contact-title">Porozmawiajmy <br />o projekcie</h2>
 
             <div class="contact-block">
               <span>Adres</span>
@@ -198,17 +207,17 @@
           <form class="contact-form reveal" data-contact-form>
             <label>
               <span>Imię i nazwisko</span>
-              <input type="text" name="name" value="Jan Kowalski" autocomplete="name" required />
+              <input type="text" name="name" placeholder="Jan Kowalski" autocomplete="name" required />
             </label>
 
             <label>
               <span>Email</span>
-              <input type="email" name="email" value="jan@przyklad.pl" autocomplete="email" required />
+              <input type="email" name="email" placeholder="jan@przyklad.pl" autocomplete="email" required />
             </label>
 
             <label>
               <span>Opisz swój pomysł</span>
-              <textarea name="message" rows="4" required>Interesuje mnie stół dębowy...</textarea>
+              <textarea name="message" rows="4" placeholder="Interesuje mnie stół dębowy..." required></textarea>
             </label>
 
             <button class="button button-light" type="submit">Wyślij zapytanie</button>
@@ -230,9 +239,9 @@
 
         <nav class="footer-nav" aria-label="Nawigacja w stopce">
           <h3>Nawigacja</h3>
-          <a href="#realizacje">Realizacje</a>
-          <a href="#o-nas">O nas</a>
-          <a href="#kontakt">Kontakt</a>
+          <a href="./realizacje.html">Realizacje</a>
+          <a href="./o-nas.html">O nas</a>
+          <a href="./kontakt.html">Kontakt</a>
         </nav>
 
         <div class="footer-nav">
@@ -245,7 +254,7 @@
       <div class="footer-bottom">
         <div class="wrap">
           <span>© 2024 SALT Meble na wymiar. Wszystkie prawa zastrzeżone.</span>
-          <span>● Handmade in Krakow</span>
+          <a href="https://maciekk88.github.io/maciekkportfolio/" target="_blank" rel="noreferrer">● made by Maciek K.</a>
         </div>
       </div>
     </footer>
